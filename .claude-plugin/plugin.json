@@ -1,0 +1,8 @@
+{
+  "name": "mattermost-plugin-development",
+  "version": "0.1.0",
+  "description": "Claude Code plugins for developing Mattermost plugins",
+  "author": {
+    "name": "hanzei"
+  }
+}
