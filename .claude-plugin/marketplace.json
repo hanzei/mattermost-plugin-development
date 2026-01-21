@@ -1,0 +1,25 @@
+{
+  "name": "mattermost-plugin-development",
+  "owner": {
+    "name": "hanzei"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for developing Mattermost plugins",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "mattermost-plugin-development",
+      "source": "./",
+      "description": "Claude Code plugins for developing Mattermost plugins",
+      "version": "0.1.0",
+      "author": {
+        "name": "hanzei"
+      },
+      "repository": "https://github.com/hanzei/mattermost-plugin-development",
+      "license": "MIT",
+      "keywords": ["mattermost", "plugin", "development"],
+      "category": "development"
+    }
+  ]
+}

@@ -8,13 +8,14 @@ Add the marketplace and install the plugin:
 
 ```
 /plugin marketplace add hanzei/mattermost-plugin-development
-/plugin install mattermost-plugin-development@hanzei-mattermost-plugin-development
+/plugin install mattermost-plugin-development@mattermost-plugin-development
 ```
 
-Or use the interactive plugin manager:
+Or clone and use directly:
 
 ```
-/plugin
+git clone https://github.com/hanzei/mattermost-plugin-development.git
+claude --plugin-dir ./mattermost-plugin-development
 ```
 
 ## Skills
