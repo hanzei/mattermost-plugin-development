@@ -43,6 +43,7 @@ When updating:
 - Adopt new linter configurations
 - Update Go version in `go.mod` if the starter template uses a newer version (compare the `go` directive). Also update the Go version in `.github/workflows/ci.yml` to match. After updating, run `go mod tidy` to update `go.sum`
 - Preserve license headers
+- Some plugins use `github.com/mattermost/mattermost-govet` in their Makefile to check for license headers. Do NOT remove that linter. If it reports missing license headers, add them to the affected source files.
 
 ### Phase 2: Fix linter issues
 
