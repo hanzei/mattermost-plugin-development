@@ -58,6 +58,16 @@ When updating:
 2. Run `make check-style` to confirm 0 issues
 3. Create a descriptive commit and PR. Use the pull request template from https://github.com/mattermost/.github/blob/master/PULL_REQUEST_TEMPLATE.md.
 
+### Phase 4: Update Go dependencies (optional)
+
+Ask the user if they want to update all direct Go dependencies. If yes:
+
+1. Run `go get -u ./...` to update all direct dependencies
+2. Run `go mod tidy` to clean up `go.sum`
+3. Run `make test` to verify all tests still pass
+4. Run `make check-style` to confirm 0 issues
+5. Create a separate commit for the dependency updates
+
 ## Example commit message
 
 ```
