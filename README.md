@@ -27,6 +27,12 @@ Syncs a Mattermost plugin repository with common files from [mattermost-plugin-s
 **Usage:**
 
 ```
+/update-from-starter-template
+```
+
+Or using the fully qualified name:
+
+```
 /mattermost-plugin-development:update-from-starter-template
 ```
 
