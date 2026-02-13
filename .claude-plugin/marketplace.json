@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "mattermost-plugin-development",
-      "source": "./",
+      "source": "./plugin",
       "description": "Claude Code plugins for developing Mattermost plugins",
       "version": "0.2.0",
       "author": {
